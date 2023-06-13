@@ -1,0 +1,4 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/np-k8s-account
+    password: password

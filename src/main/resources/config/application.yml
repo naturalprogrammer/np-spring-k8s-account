@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    url: ~
+    username: np-spring-mvc-demo
+    password: ~
+  application:
+    name: account
+  jackson:
+    default-property-inclusion: NON_ABSENT
+    deserialization:
+      accept-single-value-as-array: true
+
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    open-in-view: false
+    hibernate:
+      ddl-auto: update
